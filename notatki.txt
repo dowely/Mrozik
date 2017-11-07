@@ -1,0 +1,37 @@
+﻿lauout breaking points:
+
+1920px - covers all hd screens
+1280px - for non hd laptops (vast majority of consumer 15" laptops and 17/19" desktop monitors
+960px - this is great for landscape on tablets
+768px - perfect for portrait on tablets
+480px - covers the newer phones such as iphone 5 and 6 and samsung galaxy 6+
+320px
+
+Czcionki:
+	- Arial Rounded MT Bold
+	- Forte
+	-- Harlow Solid Italic
+	
+Nieużywane ikony:
+ - <li><i class="material-icons mi-24">phone_in_talk</i><span></span></li>
+ - <li><i class="material-icons mi-24">email</i><span></span></li>
+ - <li><i class="material-icons mi-24">pin_drop</i><span></span></li>
+ - <li><i class="material-icons mi-24">watch</i><span></span></li>
+
+Kategorie produktów:
+
+Drób: filet, udko, drumstick, skrzydełka
+Ryby: filety, płaty, paluszki, śledzie
+Owoce i warzywa: owoce, warzywa, zupy, na patelnie, sałatki
+Produkty mączne:	pierogi, pyzy, pizza, zapiekanki,
+Wyroby ziemniaczane: frytki proste, frytki karbowane, kulki, ziemniaczki, łódeczki
+Dania gotowe: krokiety, naleśniki, fasolka, flaczki
+Lody: w kubku, w rożku, na patyku, kanapka, wodne, gałkowe, familijne
+Pozostałe: grzyby, lód, tłuszcze, karma
+
+Oferta dla:
+-gastronomii
+-sklepów
+-klientów indywidualnych
+
+

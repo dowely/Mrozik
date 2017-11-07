@@ -1,0 +1,286 @@
+@font-face{
+	font-family: Harlow;
+	src: url(HarlowSolidItalic.ttf);
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.menu {
+	float: right;
+	height: 100%;
+	font-family: Calibri;
+	font-size: 24px;
+	line-height: 90px;
+	
+}
+
+.menu ul {
+	padding-right: 15px;
+}
+
+.menu li {
+	display: inline;
+	padding: 0 15px;
+	color: #737373;
+}
+
+.menu a {
+	text-decoration: none;	
+	letter-spacing: 2px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.menu a:link {
+color: inherit;
+}
+
+.menu a:visited {
+color: inherit;
+}
+
+.menu a:hover {
+	color: #ff9966;
+}
+
+.menu a:active {
+	color: #00a3cc;
+}
+
+.activeLi a {
+	border-top: 2px solid  #00a3cc;
+} 
+
+li.activeLi {
+	color: #00a3cc; /*#00b8e6 #00a3cc*/ 
+}
+
+body {
+	
+}
+
+main {
+	padding: 0 40px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5em;
+	word-spacing: 5px;
+}
+
+#logo-bar {
+	width: 100%;
+	height: 80px;
+	background-color: white; /*#00334d*/
+	box-shadow: 0 0 8px 2px rgba(0,0,0,.2), 0 0 24px 6px rgba(0,0,0,.1);
+	position: fixed;
+	top: 0;
+}
+
+.logo-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#logo-bar h1 {
+	font-family: Harlow, Forte, Sans-serif;
+	color: #ff9966;
+	text-shadow:
+		1px 1px 0px black,
+		-1px 1px 0px black,
+		1px -1px 0px black,
+		-1px -1px 0px black,
+		2px 2px 2px black,
+		0 0 35px #00b8e6; /*#00b8e6 #00a3cc*/ 
+	height: 100%;
+	line-height: 75px;
+	margin-left: 60px;
+	display: inline-block;
+	letter-spacing: 3px;
+	font-size: 2.5em;
+
+}
+
+#header-image {
+	width: 100%;
+	height: 360px;
+	margin-top: 80px;
+	padding-top: 100px; 
+	/*border: 2px solid red;*/
+	background-image: url("pictures/regis-freyd-275512.jpg");
+	background-size: 1920px;
+	background-position: center 90%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#header-image h2,
+#header-image h4 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	text-shadow: 0 0 15px red;
+}
+
+#content {
+	/*border: 2px solid red;*/
+	margin: -60px auto ;
+	max-width: 1200px;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12);
+	background-color: white;
+	border-radius: 10px 10px 0 0;
+	
+}
+
+#contact {
+	height: 320px;
+	background-image: url("pictures/city_plan.jpg");
+	background-size: cover;
+	background-position: center 80px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.shade {
+	background-color: rgba(0,0,0,.4);
+	height: 100%;
+}
+
+/* Styling Google icons */
+.material-icons.mi-18 {font-size: 18px;}
+.material-icons.mi-24 {font-size: 24px;} 
+.material-icons.mi-36 {font-size: 36px;} 
+.material-icons.mi-48 {font-size: 48px;}
+
+.material-icons {color: rgb(102, 255, 255);}
+
+.info h1 {
+	font-family: Calibri;
+	font-size: 2.2em;
+	padding: 15px 56px;
+	letter-spacing: 2px;
+	color: rgb(102, 255, 255);
+}
+
+.info ul {
+	list-style: none;
+	display: inline-block;
+	padding-left: 48px;
+	border: 1px solid transparent;
+	float: left;
+}
+
+.info p,
+.hours p,
+.info span {
+	display: inline-block;
+	border: 1px solid transparent;
+	color: white;
+	font-family: Calibri;
+	font-size: 18px;
+	margin: 5px 0;
+}
+
+.info li {
+	display: flex;
+	align-content: top;
+	border: 1px solid transparent;
+}
+
+.info i {
+	border: 1px solid transparent;
+	display: inline-block;
+	padding-right: 7px; 
+	margin: 5px 0;
+}
+
+.hours {
+	display: inline-flex;
+	align-content: top;
+	border: 1px solid transparent;
+	padding-left: 36px;
+}
+
+.hours i{
+	border: 1px solid transparent;
+	display: inline-block;
+	padding-right: 7px; 
+	margin: 5px 0;
+}
+
+.clipart {
+	float: right;
+	border: 1px solid transparent;
+	margin-right: 100px;
+	margin-top: 24px;
+}
+
+#about-img img {
+		width: 100%;
+	}
+
+#about {
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	min-height: 480px;
+		
+}
+
+#about-text {
+	font-family: Calibri;
+	border: 2px solid transparent;
+	width: 480px;
+	margin: 60px;
+}
+
+#about-img {
+	border: 2px solid transparent;
+	align-self: center;
+	width: 480px;
+	height: auto;
+	margin-right: 60px;
+}
+
+#about-text h1 {
+	margin-bottom: 15px;
+	font-size: 2em;
+}
+
+#about-text p {
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+#about-text button {
+	width: 100px;
+	height: 45px;
+	background-color: #ff9966;
+	color: whitesmoke;
+	border: 2px solid black;
+	border-radius: 6px;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#about-text button:hover {
+	box-shadow: 0 0 18px 0px rgba(0,0,0, .25);
+}
